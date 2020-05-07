@@ -1,0 +1,43 @@
+p{
+	background-color: #eeeeee;
+	color: #666666;
+	text-shadow: 1px 1px 2px #000000;
+	font-size: 32px;
+}
+p:first-letter{
+font-size: 72px;
+}
+a.format:link{
+color: pink;
+text-decoration: none;
+}
+a.format:visited{
+	color: black;
+}
+
+input:hover{
+	background-color: brown;
+}
+input:focus{
+	background-color: red;
+}
+active for only btn
+button:active{
+	background-color: pink;
+}
+p[class]{
+	color: red;
+}
+p[class="cat"]{
+	color: blue;
+}
+p[class~="cat"]{
+	color: pink;
+}
+div{
+	border:solid;
+	border-color: red;
+	max-width: 600px;
+	min-width: 100px;
+	overflow: scroll;
+}
